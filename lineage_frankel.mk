@@ -13,6 +13,9 @@ DEVICE_PATH := device/google/muzel
 VENDOR_PATH := vendor/google/frankel
 $(call inherit-product, $(DEVICE_PATH)/aosp_$(DEVICE_CODENAME).mk)
 
+# Inherit some common Evolution X stuff
+$(call inherit-product, device/google/laguna/evolution_common.mk)
+
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := lineage_$(DEVICE_CODENAME)
 PRODUCT_SYSTEM_BRAND := google

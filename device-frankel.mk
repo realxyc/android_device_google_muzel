@@ -23,6 +23,8 @@ PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/config/default_volume_tables.xml
 
 # Overlays
+DEVICE_PACKAGE_OVERLAYS += device/google/muzel/overlay-evolution
+
 PRODUCT_PACKAGES += \
     FrameworkResOverlayProductMuzel \
     FrameworkResOverlayVendorMuzel \
