@@ -13,6 +13,9 @@ DEVICE_PATH := device/google/muzel
 VENDOR_PATH := vendor/google/blazer
 $(call inherit-product, $(DEVICE_PATH)/aosp_$(DEVICE_CODENAME).mk)
 
+# Inherit some common Evolution X stuff
+$(call inherit-product, device/google/laguna/evolution_common.mk)
+
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 10 Pro
