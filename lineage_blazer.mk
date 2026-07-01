@@ -23,8 +23,8 @@ TARGET_SCREEN_HEIGHT := 2856
 TARGET_SCREEN_WIDTH := 1280
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="blazer-user 16 BP4A.260205.001 14624666 release-keys" \
-    BuildFingerprint=google/blazer/blazer:16/BP4A.260205.001/14624666:user/release-keys \
+    BuildDesc="blazer-user 16 CP1A.260505.005 15081906 release-keys" \
+    BuildFingerprint=google/blazer/blazer:16/CP1A.260505.005/15081906:user/release-keys \
     DeviceProduct=$(DEVICE_CODENAME)
 
 $(call inherit-product, $(VENDOR_PATH)/$(DEVICE_CODENAME)-vendor.mk)
